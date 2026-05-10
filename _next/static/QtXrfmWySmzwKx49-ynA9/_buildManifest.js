@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/ecomtara-trial-page//_next/:path+",
+        "destination": "/ecomtara-trial-page/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
